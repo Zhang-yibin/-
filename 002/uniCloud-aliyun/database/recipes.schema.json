@@ -1,0 +1,43 @@
+{
+    "bsonType": "object",
+    "required": [
+        "name",
+        "ingredients",
+        "steps"
+    ],
+    "properties": {
+        "name": {
+            "bsonType": "string",
+            "title": "菜谱名称",
+            "description": "菜谱的名称"
+        },
+        "ingredients": {
+            "bsonType": "array",
+            "title": "所需食材",
+            "description": "菜谱所需的食材列表",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "steps": {
+            "bsonType": "string",
+            "title": "制作步骤",
+            "description": "菜谱的制作步骤"
+        },
+        "imageUrl": {
+            "bsonType": "string",
+            "title": "图片URL",
+            "description": "菜谱的图片URL"
+        },
+        "warning": {
+            "bsonType": "string",
+            "title": "禁忌人群",
+            "description": "菜谱的禁忌人群"
+        },
+        "createdAt": {
+            "bsonType": "timestamp",
+            "title": "创建时间",
+            "description": "菜谱的创建时间"
+        }
+    }
+}

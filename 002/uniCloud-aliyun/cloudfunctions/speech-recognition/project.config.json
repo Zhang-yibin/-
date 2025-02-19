@@ -1,0 +1,14 @@
+{
+    "miniprogramRoot": "./",
+    "cloudfunctionRoot": "./",
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true
+    },
+    "appid": "touristappid",
+    "projectname": "speech-recognition",
+    "libVersion": "2.25.2",
+    "condition": {}
+}

@@ -1,0 +1,7 @@
+{
+    "name": "get-inventory",
+    "version": "1.0.0",
+    "description": "获取库存数据",
+    "main": "index.js",
+    "dependencies": {}
+}

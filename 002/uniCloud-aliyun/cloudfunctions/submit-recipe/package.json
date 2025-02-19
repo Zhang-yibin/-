@@ -1,0 +1,6 @@
+{
+    "name": "submit-recipe",
+    "version": "1.0.0",
+    "description": "提交菜谱数据",
+    "main": "index.js"
+}

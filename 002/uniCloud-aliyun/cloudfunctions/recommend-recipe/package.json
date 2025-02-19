@@ -1,0 +1,9 @@
+{
+    "name": "recommend-recipe",
+    "version": "1.0.0",
+    "description": "根据库存推荐食谱",
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.27.2"
+    }
+}

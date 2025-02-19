@@ -1,0 +1,7 @@
+{
+    "name": "speech-recognition",
+    "version": "1.0.0",
+    "description": "本地语音识别功能",
+    "main": "index.js",
+    "dependencies": {}
+}

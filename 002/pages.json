@@ -1,0 +1,35 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智能冰箱库存"
+			}
+		},
+		{
+			"path": "pages/manual-input/manual-input",
+			"style": {
+				"navigationBarTitleText": "手动录入"
+			}
+		},
+		{
+			"path": "pages/query-result/query-result",
+			"style": {
+				"navigationBarTitleText": "查询结果"
+			}
+		},
+		{
+			"path": "pages/manual-recipe-input/manual-recipe-input",
+			"style": {
+				"navigationBarTitleText": "手动录入菜谱"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智能冰箱",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

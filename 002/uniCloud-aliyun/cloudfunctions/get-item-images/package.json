@@ -1,0 +1,9 @@
+{
+    "name": "get-item-images",
+    "version": "1.0.0",
+    "description": "查询物品图片",
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.27.2"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "bsonType": "object",
+    "required": [
+        "name",
+        "quantity",
+        "scanDate"
+    ],
+    "properties": {
+        "name": {
+            "bsonType": "string",
+            "title": "物品名称",
+            "description": "扫描到的物品名称"
+        },
+        "quantity": {
+            "bsonType": "int",
+            "title": "数量",
+            "description": "物品的数量",
+            "minimum": 1
+        },
+        "scanDate": {
+            "bsonType": "string",
+            "title": "扫描日期",
+            "description": "物品扫描的日期",
+            "format": "date"
+        },
+        "expireDate": {
+            "bsonType": "string",
+            "title": "保质期",
+            "description": "物品的保质期",
+            "format": "date"
+        },
+        "imageUrl": {
+            "bsonType": "string",
+            "title": "图片URL",
+            "description": "物品的图片URL"
+        },
+        "lastUpdated": {
+            "bsonType": "timestamp",
+            "title": "最后更新时间",
+            "description": "图片的最后更新时间"
+        }
+    }
+}

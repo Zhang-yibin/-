@@ -1,0 +1,24 @@
+{
+    "bsonType": "object",
+    "required": [
+        "name",
+        "imageUrl"
+    ],
+    "properties": {
+        "name": {
+            "bsonType": "string",
+            "title": "物品名称",
+            "description": "物品的名称"
+        },
+        "imageUrl": {
+            "bsonType": "string",
+            "title": "图片URL",
+            "description": "物品的图片URL"
+        },
+        "lastUpdated": {
+            "bsonType": "timestamp",
+            "title": "最后更新时间",
+            "description": "图片的最后更新时间"
+        }
+    }
+}
