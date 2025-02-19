@@ -1,0 +1,112 @@
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+.text-area {
+	display: flex;
+	justify-content: center;
+}
+.title {
+	font-size: 36rpx;
+	color: #8f8f94;
+}
+.social-btn {
+	margin-top: 40rpx;
+	width: 200rpx;
+	background-color: #ff0050;
+	color: white;
+	border-radius: 10rpx;
+}
+.scan-btn {
+	margin-top: 40rpx;
+	width: 200rpx;
+	background-color: #007aff;
+	color: white;
+	border-radius: 10rpx;
+}
+.recipe-btn {
+	margin-top: 40rpx;
+	width: 200rpx;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 10rpx;
+}
+.voice-btn {
+	margin-top: 40rpx;
+	width: 200rpx;
+	background-color: #FF9800;
+	color: white;
+	border-radius: 10rpx;
+}
+.inventory {
+	width: 90%;
+	margin-top: 40rpx;
+}
+.inventory-item {
+	background-color: #f8f8f8;
+	padding: 20rpx;
+	margin-bottom: 20rpx;
+	border-radius: 10rpx;
+	display: flex;
+	flex-direction: column;
+}
+.item-name {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #333;
+}
+.item-quantity,
+.item-expire,
+.item-date {
+	font-size: 28rpx;
+	color: #666;
+	margin-top: 10rpx;
+}
+
+/* 添加手动录入区域样式 */
+.manual-input-section {
+	margin-top: 40rpx;
+	width: 90%;
+	padding: 20rpx;
+	background-color: #f8f8f8;
+	border-radius: 10rpx;
+}
+.section-title {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20rpx;
+	display: block;
+}
+.input-fields {
+	display: flex;
+	flex-direction: column;
+	gap: 20rpx;
+}
+.input {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 8px;
+	font-size: 14px;
+	width: 100%;
+}
+.submit-btn {
+	margin-top: 20rpx;
+	background-color: #007aff;
+	color: white;
+	border-radius: 4px;
+	padding: 10px;
+	font-size: 16px;
+}
+

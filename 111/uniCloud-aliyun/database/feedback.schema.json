@@ -1,0 +1,27 @@
+{
+    "bsonType": "object",
+    "required": [
+        "name",
+        "quantity",
+        "expireDate"
+    ],
+    "properties": {
+        "name": {
+            "bsonType": "string",
+            "title": "物品名称",
+            "description": "冰箱中物品的名称"
+        },
+        "quantity": {
+            "bsonType": "int",
+            "title": "数量",
+            "description": "物品的数量",
+            "minimum": 0
+        },
+        "expireDate": {
+            "bsonType": "string",
+            "title": "保质期",
+            "description": "物品的保质期",
+            "format": "date"
+        }
+    }
+}
